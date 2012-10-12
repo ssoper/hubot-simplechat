@@ -1,5 +1,11 @@
 {Adapter,TextMessage,Robot} = require 'hubot'
-SocketIO = require 'socket.io-client'
+fs = require 'fs'
+
+socketLib = fs.existsSync(__dirname + '/../node_modules/socket.io');
+if (socketLib)
+  SocketIO = require 'socket.io-client'
+else
+  SocketIO = require '../../socket.io/node_modules/socket.io-client'
 
 class SimpleChat extends Adapter
   send: (user, strings...) ->
