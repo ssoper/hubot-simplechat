@@ -26,7 +26,7 @@
     "url": "https://github.com/ssoper/hubot-simplechat/issues"
   },
   "dependencies": {
-    "socket.io": "0.9.x"
+    "socket.io": "~0.9"
   },
   "devDependencies": {
     "coffee-script": ">=1.2.0"
