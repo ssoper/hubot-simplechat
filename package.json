@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": {
     "name": "Sean Soper",
-    "url": "https://www.simplechat.com/"
+    "url": "http://seansoper.com"
   },
   "keywords": [
     "hubot",
@@ -22,8 +22,8 @@
     "url": "git://github.com/ssoper/hubot-simplechat.git"
   },
   "bugs": {
-    "email": "team@simplechat.com",
-    "url": "https://github.com/flowdock/hubot-flowdock/issues"
+    "email": "sean.soper@gmail.com",
+    "url": "https://github.com/ssoper/hubot-simplechat/issues"
   },
   "dependencies": {
     "socket.io": "0.9.x"
