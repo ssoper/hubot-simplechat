@@ -1,0 +1,38 @@
+{
+  "name": "hubot-simplechat",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sean Soper",
+    "url": "https://www.simplechat.com/"
+  },
+  "keywords": [
+    "hubot",
+    "simplechat",
+    "adapter"
+  ],
+  "description": "A Simplechat adapter for hubot",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ssoper/hubot-simplechat.git"
+  },
+  "bugs": {
+    "email": "team@simplechat.com",
+    "url": "https://github.com/flowdock/hubot-flowdock/issues"
+  },
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.2.0"
+  },
+  "main": "./src/simplechat",
+  "engines": {
+    "node": ">=0.4.7"
+  }
+}
